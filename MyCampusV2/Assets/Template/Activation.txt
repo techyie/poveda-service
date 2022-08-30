@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+  <div>
+      <center>
+        <img src="{PovedaLogo}" />
+      <center>
+  </div>
+
+  <center>
+    <div style="max-width: 25%; min-width: 20%; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 5px; padding: 40px 20px 40px 50px; background: #FAFAFA; text-align: left">
+      <p style="letter-spacing: 0.05em; font-family: Roboto; font-size: 14px; color: #000000;">Hello, {Email}</p>
+      <p style="letter-spacing: 0.05em; font-family: Roboto; font-size: 14px; color: #000000;">Welcome to the Poveda App for Parents (PAP)!</p>
+      <p style="letter-spacing: 0.05em; font-family: Roboto; font-size: 14px; color: #000000;">Please click the button below to activate your account — and have access to the app.</p>
+      <br />
+      <div style="color: #fff; text-align: center; padding: 0px 0px 5px 0px;">
+        <div style="border-radius: 5px; background: #000; min-width: 40%; max-width: 60%; height: auto; padding:18px 0px 18px 0px; margin: 0; font-family: Roboto;">
+	  <a href="{LinkValidationUrl}" style="color: #fff; text-decoration: none; font-size: 16px">ACTIVATE ACCOUNT</a>
+        </div>
+      </div>
+      <br />
+      <p style="letter-spacing: 0.05em; font-family: Roboto; font-size: 14px; color: #000000;">Thank you.</p>
+    </div>
+    <br />
+    <p style="letter-spacing: 0.05em; font-family: Roboto; font-size: 12px; opacity: 0.5; color: #000000;">Can’t see the contents properly? Please follow this link to activate your account:</p>
+    <p style="letter-spacing: 0.05em; font-family: Roboto; font-size: 12px; color: #000000;"><a href="{LinkValidationUrl}">[PASSWORD RESET LINK]</a></p>
+  </center>
+</body>
+</html>

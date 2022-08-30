@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="V1\**" />
+    <EmbeddedResource Remove="V1\**" />
+    <None Remove="V1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="IBaseEntity.cs" />
+    <Compile Remove="tblref_area.cs" />
+    <Compile Remove="tblref_campus.cs" />
+    <Compile Remove="tblref_college.cs" />
+    <Compile Remove="tblref_course.cs" />
+    <Compile Remove="tblref_department.cs" />
+    <Compile Remove="tblref_designation.cs" />
+    <Compile Remove="tblref_educ_level.cs" />
+    <Compile Remove="tblref_failedlogs.cs" />
+    <Compile Remove="tblref_position.cs" />
+    <Compile Remove="tblref_section.cs" />
+    <Compile Remove="tblref_student_section.cs" />
+    <Compile Remove="tblref_year_level.cs" />
+    <Compile Remove="tblref_year_section.cs" />
+    <Compile Remove="tbl_area.cs" />
+    <Compile Remove="tbl_audit_trail.cs" />
+    <Compile Remove="tbl_batch_upload.cs" />
+    <Compile Remove="tbl_card_details.cs" />
+    <Compile Remove="tbl_college.cs" />
+    <Compile Remove="tbl_college_course.cs" />
+    <Compile Remove="tbl_college_course_section.cs" />
+    <Compile Remove="tbl_college_year_level.cs" />
+    <Compile Remove="tbl_daily_logs.cs" />
+    <Compile Remove="tbl_datasync.cs" />
+    <Compile Remove="tbl_data_sync.cs" />
+    <Compile Remove="tbl_department.cs" />
+    <Compile Remove="tbl_designation.cs" />
+    <Compile Remove="tbl_division.cs" />
+    <Compile Remove="tbl_educ_level.cs" />
+    <Compile Remove="tbl_emergency_contact.cs" />
+    <Compile Remove="tbl_employee_subtype.cs" />
+    <Compile Remove="tbl_employee_type.cs" />
+    <Compile Remove="tbl_fetcher.cs" />
+    <Compile Remove="tbl_form.cs" />
+    <Compile Remove="tbl_formsub.cs" />
+    <Compile Remove="tbl_gov_ids.cs" />
+    <Compile Remove="tbl_notification.cs" />
+    <Compile Remove="tbl_office.cs" />
+    <Compile Remove="tbl_person.cs" />
+    <Compile Remove="tbl_person_employee.cs" />
+    <Compile Remove="tbl_person_student.cs" />
+    <Compile Remove="tbl_region.cs" />
+    <Compile Remove="tbl_roles.cs" />
+    <Compile Remove="tbl_schedule.cs" />
+    <Compile Remove="tbl_sms_notification.cs" />
+    <Compile Remove="tbl_sms_params.cs" />
+    <Compile Remove="tbl_terminal.cs" />
+    <Compile Remove="tbl_terminal_category.cs" />
+    <Compile Remove="tbl_terminal_configuration.cs" />
+    <Compile Remove="tbl_terminal_whitelist.cs" />
+    <Compile Remove="tbl_terminal_whitelist_count.cs" />
+    <Compile Remove="tbl_user.cs" />
+    <Compile Remove="tbl_user_access.cs" />
+    <Compile Remove="tbl_user_role.cs" />
+    <Compile Remove="tbl_user_role_access.cs" />
+    <Compile Remove="V2\entity\employeeTypeEntity.cs" />
+    <Compile Remove="V2\entity\sectionEntity.cs" />
+    <Compile Remove="V2\entity\summaryDailyLogsStudentEntity.cs" />
+    <Compile Remove="Visitor.cs" />
+    <Compile Remove="VisitorInformation.cs" />
+  </ItemGroup>
+
+</Project>

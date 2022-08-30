@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModels\SectionViewModel\**" />
+    <EmbeddedResource Remove="ViewModels\SectionViewModel\**" />
+    <None Remove="ViewModels\SectionViewModel\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="ExceptionMiddleware" Version="1.0.2" />
+    <PackageReference Include="MailKit" Version="2.15.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCampusV2.Models\MyCampusV2.Models.csproj" />
+  </ItemGroup>
+
+</Project>
